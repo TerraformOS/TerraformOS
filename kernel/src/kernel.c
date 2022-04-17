@@ -139,7 +139,7 @@ static void init(meminfo_t meminfo) {
     idt_install();
     serial_log("Setting up VMM..\n", S_INFO);
     log("Setting up VMM..\n", S_INFO);
-    vmm_init(meminfo);
+    // vmm_init(meminfo);
 
     serial_log("Setting up TSS..\n", S_INFO);
     log("Setting up TSS..\n", S_INFO);
