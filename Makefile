@@ -3,8 +3,10 @@ all:
 	mkdir -p kernel/lib/interrupts/x86_64
 	mkdir -p kernel/lib/proc/x86_64
 	cd gnu-efi/; make; make bootloader; cd ../; cd kernel; make; make buildimg
+	mkdir -p /tmp/deploy
+	mv kernel/bin/TerraformOS.img /tmp/deploy/TerraformOS.img
 
-run:
+run:	
 	cd kernel/; make run
 
 debug:
@@ -15,3 +17,4 @@ dump:
 
 burndanger:
 	dd if=kernel/bin/HSCorpOS.img of=/dev/sdb status=progress
+	
