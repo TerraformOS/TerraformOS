@@ -1,4 +1,4 @@
-OSNAME = TarraformOS
+OSNAME = TerraformOS
 
 GNUEFI = ../gnu-efi
 OVMFDIR = ../OVMFbin
