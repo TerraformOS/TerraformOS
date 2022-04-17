@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c2539b2 (Initial commit.)
 # Prerequisites
 *.d
 
@@ -50,3 +54,16 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< HEAD
+=======
+=======
+*.elf
+*.bin
+*.iso
+*.img
+*.fd
+logfile.txt
+*.o
+*.fd
+>>>>>>> 415ea2c (Initial commit)
+>>>>>>> c2539b2 (Initial commit.)
